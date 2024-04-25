@@ -9,6 +9,7 @@
 :root{
     --darck-blue: #262e38;
     --lighty-grey: #969fad;
+    --medium-grey: #7c8798;
     --orange: #fc7614;
     --with: #fff;
     --very-darck-blue: #131518;
@@ -55,4 +56,25 @@ body{
     color: var(--lighty-grey);
     font-size: 15px;
     line-height: 24px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes button{
+    width: 51px;
+    height: 51px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    border-radius: 50%;
+    border: none;
+    color: var(--medium-grey);
+    background-color: var(--darck-blue);
+}
+
+.botoes button:hover {
+    
 }
