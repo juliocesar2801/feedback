@@ -27,6 +27,7 @@ body{
 .card{
 
     background: var(--black-gradient);
+    text-align: center;
     max-width: 412px;
     padding: 32px;
     border-radius: 30px;
@@ -56,7 +57,7 @@ body{
     color: var(--lighty-grey);
     font-size: 15px;
     line-height: 24px;
-    margin: 20px;
+    margin-bottom: 24px;
 }
 
 .botoes{
