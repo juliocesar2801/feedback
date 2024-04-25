@@ -21,7 +21,7 @@ body{
     justify-content: center;
     display: flex;
     height: 100svh;
-    background-color: var(--very-darck-blue)
+    background-color: var(--very-darck-blue);
 }
 
 .card{
@@ -56,6 +56,7 @@ body{
     color: var(--lighty-grey);
     font-size: 15px;
     line-height: 24px;
+    margin: 20px;
 }
 
 .botoes{
@@ -73,8 +74,40 @@ body{
     border: none;
     color: var(--medium-grey);
     background-color: var(--darck-blue);
+
+    transition: all ease-in-out 0.5s;
 }
 
 .botoes button:hover {
-    
+    color: var(--with);
+    background-color: var(--orange);
+    cursor: pointer;
+}
+
+.botoes button:focus{
+    color:var(--with);
+    background-color: var(--lighty-grey);
+}
+
+.card > button {
+
+    width: 100%;
+    margin: 20px;
+    padding: 13px;
+    background-color: var(--orange);
+    border:none;
+    border-radius: 22px;
+
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--with);
+    transition: all ease-in-out 0.5s;
+}
+
+.card > button:hover {
+    color: var(--orange);
+    background-color: var(--with);
+    cursor: pointer;    
 }
