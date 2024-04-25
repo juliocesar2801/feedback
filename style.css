@@ -93,7 +93,7 @@ body{
 .card > a {
     display: block;
     width: 100%;
-    margin: 20px;
+    margin-top: 20px;
     padding: 13px;
     background-color: var(--orange);
     border:none;
